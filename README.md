@@ -1,3 +1,14 @@
+# Angular applications with NgRx and Nx
+
+The **enterprise-angluar** project will walk through a thorough introduction into using NgRx, an RxJS powered state management library for Angular applications, inspired by Redux. We will use Nx CLI and Nrwl Plugins, an open source toolkit for enterprise applications. Nx was designed to help you create and build enterprise-grade Angular applications with proven project structure and patterns.
+
+- Angular mono repo architecture with the CLI and nx workspaces
+- Building shared nx libraries with NgRx
+- Redux and NgRx principles
+- Angular fundamentals including components, routing, services and forms
+  <br>
+  <br>
+
 # NxAngular
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
@@ -19,3 +30,5 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+---
