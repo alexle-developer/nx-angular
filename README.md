@@ -9,6 +9,44 @@ The **enterprise-angluar** project will walk through a thorough introduction int
   <br>
   <br>
 
+# JSON-SERVER Setup
+
+1. install JSON-SERVER globablly (if you have not done it already)
+   ```
+   npm install -g json-server
+   ```
+2. install JSON-SERVER in the root of your project
+   ```
+   npm install json-server --save-dev
+   ```
+3. make a new folder called "server" in the root of your project (e.g. nx-angular\server)
+4. add a file call db.json for mock data (you can view the content of this file in the project)
+5. add this command **"json-server": "json-server server/db.json"** to the package.json under the script section
+   ```json
+     "scripts": {
+         "start": "nx serve",
+         "build": "nx build",
+         "test": "nx test",
+         "json-server": "json-server server/db.json"
+       },
+   ```
+6. run JSON-SERVER locally using command line
+   ```
+   npm run json-server
+   ```
+7. Navigate to localhost:3000 in the browser
+
+   You should see the messge below
+
+   > JSON Server
+   >
+   > Congrats!
+   >
+   > You're successfully running JSON Server
+
+   <br>
+   <br>
+
 # NxAngular
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
